@@ -3,6 +3,7 @@ import re
 import numpy as np
 import networkx as nx
 from scipy import spatial
+from gensim.models import Word2Vec
 
 # Note: this implementation uses unigrams in common instead of cosine distance
 # adapted from https://medium.com/data-science-in-your-pocket/text-summarization-using-textrank-in-nlp-4bce52c5b390
